@@ -76,3 +76,20 @@ class DiceFactory():
         print(self.value)
         
         return Die(self.sides)
+
+
+die6 = Die(6)
+die6.roll()
+print(die6.value)
+
+die20 = Die(20)
+die20.roll()
+print(die20.value)
+
+Die_6 = Die(6,[1,1,1,2,2,-2])
+Die_6.roll()
+print(Die_6.value)
+
+factory20 = DiceFactory(20)
+die20 = factory20.make_die()
+anotherDie20 = factory20.make_die()
