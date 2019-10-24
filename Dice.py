@@ -19,7 +19,7 @@ class Die:
             if(isinstance(x, int)):
                 pass
             else:
-                raise Exception("only integer values allowed")
+                raise Exception("negative probabilities not allowed")
         
 
     def greater_than(self):
@@ -35,7 +35,7 @@ class Die:
              if(sum(self.probabilities) > 1):
                 pass
              else:
-                raise Exception("negative probabilities not allowed")
+                raise Exception("only integer values allowed")
 
     def setProbabilities(self):
         weight = []
