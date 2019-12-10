@@ -86,7 +86,7 @@ die20 = Die(20)
 die20.roll()
 print(die20.value)
 
-Die_6 = Die(6,[1,1,1,2,2,-2])
+Die_6 = Die(6,[1,1,1,2,2,2])
 Die_6.roll()
 print(Die_6.value)
 
